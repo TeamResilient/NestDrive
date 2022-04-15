@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");
-const dotenv = require("dotenv");
 require('solidity-coverage');
+const dotenv = require("dotenv");
 
 dotenv.config();
 const defaultNetwork = "rinkeby";
@@ -33,6 +33,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
         (you can put in a mnemonic here to set the deployer locally)
       
       */
+    },
+    rinkeby: {
+      url: process.env.ALCHEMY_API_URL,
+      accounts: [process.env.METAMASK_KEY],
     },
     rinkeby: {
       url: process.env.ALCHEMY_API_URL,
