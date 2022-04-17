@@ -244,7 +244,7 @@ $ npx hardhat coverage --network localhost --show-stack-traces
 This Project was created by the members of TeamResilient during the Blockgames Internship.
 
 <p align="center" width="100%">
-  <img src="https://drive.google.com/uc?export=view&id=139VdHejdlzaycJCHEVJOsPbnEHJdRuMz" alt="teamresilient"/>
+  <img src="https://drive.google.com/uc?export=view&id=13Gt4morUWHd7QNLk4e6Om7itygJiCOSl" alt="teamresilient"/>
 </p>
 
 #
